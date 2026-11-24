@@ -1,0 +1,92 @@
+/* Estilo do site Vide+ (vermelho, preto e branco) */
+
+body {
+    background-color: #303030;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo redonda no canto superior esquerdo */
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+
+/* Caixa do meio, tudo alinhado dentro dela */
+.caixa {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #222222;
+    border: 2px solid red;
+}
+
+/* Caixa mais larga (página de suporte) */
+.larga {
+    width: 500px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+/* Textos centralizados */
+.subtitulo {
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+}
+
+.contato {
+    text-align: center;
+}
+
+/* Formulário: texto a esquerda e campos do mesmo tamanho */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    border: none;
+}
+
+a {
+    color: red;
+}
+
+hr {
+    margin: 25px 0;
+}
